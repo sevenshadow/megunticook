@@ -1,4 +1,4 @@
-var megunticook = function () {
+var megunticook = (function () {
     'use strict';
         
     var simpleReArgs = {
@@ -20,4 +20,4 @@ var megunticook = function () {
         simpleReArgs : simpleReArgs,
         getSimpleReValue : getSimpleReValue
     };
-};
+}());
