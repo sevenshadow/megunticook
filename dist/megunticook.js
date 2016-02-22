@@ -1,4 +1,4 @@
-define([] , function () {
+define('megunticook',[] , function () {
         
         var simpleReArgs = {
             requireReturn: 0,
