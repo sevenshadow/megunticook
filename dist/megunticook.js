@@ -1,6 +1,6 @@
 define([] , function () {
         
-        var simpleResidualEarningsModelArgs = {
+        var simpleReArgs = {
             requireReturn: 0,
             bookValuePerShareAtTime0 : 0,
             valuePerShareAtTime0 : 0,
@@ -9,8 +9,15 @@ define([] , function () {
             dividendAtTime1 : 0
         };
         
+        var getSimpleReValue = function(simpleReArgs)
+        {
+            
+            return simpleReArgs.valuePerShareAtTime0;
+        };
+        
         var publicApi = {
-            simpleResidualEarningsModelArgs : simpleResidualEarningsModelArgs
+            simpleReArgs : simpleReArgs,
+            getSimpleReValue : getSimpleReValue
         };
         
         return publicApi;
