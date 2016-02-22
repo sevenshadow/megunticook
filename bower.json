@@ -1,0 +1,11 @@
+{
+    "name": "megunticook",
+    "version": "0.0.1",
+    "main": "dist/megunticook.js",
+    "ignore": [
+        ".bowerrc",
+        ".gitignore",
+        "bower.json",
+        "README.md"
+    ]
+}
